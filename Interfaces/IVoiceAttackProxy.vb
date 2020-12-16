@@ -26,7 +26,7 @@ Namespace Global.JDS.VAProxyWrapper.Interfaces
     ' These two are required calls from within the VA_Invoke1/VA_Exit1 methods
     ' -- This is so the proxy class objects that VA passes are typecast correctly
     ' -- for any processing the user might wish to do
-    Sub Invoke(proxy As VA.VoiceAttackInvokeProxyClass)
+    Sub Invoke(proxy As Object)
     Sub [Exit](proxy As Object)
     
     '*******************************

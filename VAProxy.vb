@@ -38,9 +38,9 @@ Namespace Global.JDS.VAProxyWrapper
       Variables = New Variables(VAProxy, Me)
       Versions = New Versions(VAProxy, Me)
     End Sub
- 
-    
-    Public Sub Invoke(proxy As VA.VoiceAttackInvokeProxyClass) Implements IVoiceAttackProxy.Invoke
+
+
+    Public Sub Invoke(proxy As Object) Implements IVoiceAttackProxy.Invoke
       ' Dynamically update the typecast of the proxy as VoiceAttackInvokeProxyClass
       Dim isProxyType As Type = proxy.GetType
       ' And save reference to proxy 
