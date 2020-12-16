@@ -2,6 +2,8 @@
 A Wrapper class in Visual Basic .NET for Voice Attack's VAProxy object(s)
 -- by CMDR Sapphire Kamigawa
 
+                 VAProxyWrapper
+
              ©2020 Jennifer D. Snow
              CMDR Sapphire Kamigawa
 
